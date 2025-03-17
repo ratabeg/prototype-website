@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">MyPortfolio</a>
+            <ul id="nav-menu" class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div>
+            <ul id="nav-mobile-menu" class="nav-mobile-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+            <span>
+                <button id="toggle-theme" class="toggle-theme">
+                    <!-- Dark Mode -->
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="nav-toggle" class="nav-toggle" >
+                    <i class="fa fa-bars"></i>
+                </button>
+            </span>
+        </div>
+    </nav>
+
+
+    <header id="home" class="hero">
+        <span data-text="Hello World" class="hero-img-container">
+            <img src="Media/img/profile.jpg" alt="Profile Image" class="hero-img" width="400" height="400">
+        </span>
+        <div class="hero-container">
+            <h1 class="hero-title">Hello, I'm Raouf Atabeg</h1>
+            <p class="hero-subtitle">I'm a web developer</p>
+            <a href="#projects" class="cvbtn">Download CV</a>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/ratabeg/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ratabeg/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/ratabeg" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        
+    </header>
+
+    <section id="skill" class="skills">
+        <h2>S<span class="big">k</span>ills</h2>
+        <div class="skills-container">
+            <div id="skills-list" class="skills-list">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Pro<span class="big">j</span>ects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <img src="Media/projects/2048.png" alt="Project 1" class="project-img" width="200" height="auto">
+                <h3 class="project-title rock_salt">2048 Game</h3>
+                <i class="fa-brands fa-react"></i>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.</p>        
+            </div>
+
+            <div class="project-item">
+                <img src="Media/projects/The-Central-Asian-Chronicles.jpeg" alt="Project 1" class="project-img" width="200" height="250" >
+                <h3 class="project-title rock_salt">The Central Asian Chronicles </h3>
+                <i class="fa-brands fa-wordpress"></i>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.</p>        
+            </div>
+            <div class="project-item">
+                <img src="Media/projects/The-Central-Asian-Chronicles.jpeg" alt="Project 1" class="project-img" width="200" height="250" >
+                <h3 class="project-title">The Central Asian Chronicles </h3>
+                <i class="fa-brands fa-wordpress"></i>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.</p>        
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Ex<span class="">p</span>erience</h2>
+        <div class="experience-container">
+            <div class="experience-card experience-card-1">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Lobby IQ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur, similique id? Facilis eos error sed fugiat,
+                        voluptatem ducimus deserunt. Soluta architecto quisquam 
+                        obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
+                </div>
+            </div>
+            <!-- <div class="experience-card experience-card-2">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Workplace 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur, similique id? Facilis eos error sed fugiat,
+                        voluptatem ducimus deserunt. Soluta architecto quisquam 
+                        obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
+                </div>
+            </div>
+            <div class="experience-card experience-card-2">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Workplace 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur, similique id? Facilis eos error sed fugiat,
+                        voluptatem ducimus deserunt. Soluta architecto quisquam 
+                        obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
+                </div>
+
+                
+            </div> -->
+        
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Raouf Atabeg</p>
+        </div>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>
