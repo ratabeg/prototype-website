@@ -25,3 +25,4 @@ themeToggle.addEventListener('click', () => {
     themeToggle.innerHTML = isDarkMode ? `<i class="fa-solid fa-sun"></i>` : '<i class="fa-solid fa-moon"></i>';
     localStorage.setItem('dark-mode', isDarkMode);
 });
+

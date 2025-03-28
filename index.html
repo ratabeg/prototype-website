@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <div class="navbar-container">
             <a href="#" class="logo">MyPortfolio</a>
             <ul id="nav-menu" class="nav-menu">
@@ -28,7 +28,6 @@
         </div>
             <span>
                 <button id="toggle-theme" class="toggle-theme">
-                    <!-- Dark Mode -->
                     <i class="fa-solid fa-moon"></i>
                 </button>
                 <button id="nav-toggle" class="nav-toggle" >
@@ -36,8 +35,40 @@
                 </button>
             </span>
         </div>
-    </nav>
+    </nav> -->
 
+    <!-- Menu bars -->
+    <div class="menu-bars" id="menu-bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+    </div>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle-container">
+        <span>
+            <button id="toggle-theme" class="toggle-theme">
+                <!-- Dark Mode -->
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button id="nav-toggle" class="nav-toggle" >
+                <i class="fa fa-bars"></i>
+            </button>
+        </span>
+    </div>
+
+    <!-- Menu Overlay -->
+    <div class="overlay" id="overlay">
+        <!-- menu items -->
+         <nav>
+            <ul class="mobile-nav-items">
+                <li id="mobile-nav-item-1" class="n-item"><a href="#home">Home</a></li>
+                <li id="mobile-nav-item-2" class="n-item"><a href="#about">About</a></li>
+                <li id="mobile-nav-item-3" class="n-item"><a href="#skills">Skills</a></li>
+                <li id="nav-4" class="n-item"><a href="#projects">Projects</a></li>
+            </ul>
+         </nav>
+    </div>
+   
 
     <header id="home" class="hero">
         <span data-text="Hello World" class="hero-img-container">
@@ -120,9 +151,19 @@
         </div>
     </section>
 
-    <section id="experience" class="experience">
+    <!-- <section  id="experience" class="experience">
         <h2>Ex<span class="">p</span>erience</h2>
         <div class="experience-container">
+            <div class="experience-card experience-card-1">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Lobby IQ</h3>
+                    <h3 class="rock_salt">Date</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur, similique id? Facilis eos error sed fugiat,
+                        voluptatem ducimus deserunt. Soluta architecto quisquam 
+                        obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
+                </div>
+            </div>
             <div class="experience-card experience-card-1">
                 <div class="experience-card-content">
                     <h3 class="rock_salt">Lobby IQ</h3>
@@ -132,30 +173,53 @@
                         obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
                 </div>
             </div>
-            <!-- <div class="experience-card experience-card-2">
+            <div class="experience_card experience-card-1">
                 <div class="experience-card-content">
-                    <h3 class="rock_salt">Workplace 2</h3>
+                    <h3 class="rock_salt">Lobby IQ</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Consectetur, similique id? Facilis eos error sed fugiat,
                         voluptatem ducimus deserunt. Soluta architecto quisquam 
                         obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
                 </div>
             </div>
-            <div class="experience-card experience-card-2">
+            
+        </div>      
+    </section> -->
+
+    <section  id="experience" class="experience">
+        <h2 class="experience-title"> Ex<span class="">p</span>erience</h2>
+        <div class="experience-container">
+            <div class="experience-card experience-card-1">
                 <div class="experience-card-content">
-                    <h3 class="rock_salt">Workplace 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Consectetur, similique id? Facilis eos error sed fugiat,
-                        voluptatem ducimus deserunt. Soluta architecto quisquam 
-                        obcaecati aut quibusdam? Voluptate qui mollitia vitae ratione.</p>
+                    <h3 class="rock_salt">Front-End Developer</h3>
+                    <h3 class="rock_salt">LobbyIQ</h3>
+                    <h3 class="year">2024</h3>
+                    <p>Transformed complex policy data into intuitive dashboards using React, TypeScript, and Node.js.</p>
                 </div>
-
                 
-            </div> -->
-        
-
-        </div>
+            </div>
+            <div class="experience-card experience-card-1">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Wordpress Web Developer</h3>
+                    <h3 class="rock_salt">Mindpress</h3>
+                    <h3 class="year">2024</h3>
+                    <p>Enhance SEO to boost website visibility and search rankings for clients such as Open Jaw.</p>
+                </div>
+                
+            </div>
+            <div class="experience-card experience-card-1">
+                <div class="experience-card-content">
+                    <h3 class="rock_salt">Full-Stack Web Developer</h3>
+                    <h3 class="rock_salt">Freelance</h3>
+                    <h3 class="year">2022-2024</h3>
+                    <p>Develop features and applications using tools like WordPress, PHP , and JavaScript</p>
+                </div>
+                
+            </div>
+            
+        </div>      
     </section>
+    
 
 
     <footer>
@@ -163,7 +227,7 @@
             <p>&copy; 2025 Raouf Atabeg</p>
         </div>
     </footer>
-   
+    <script src="navbar.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
